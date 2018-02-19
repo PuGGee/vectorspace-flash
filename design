@@ -1,0 +1,32 @@
+Intro
+a 2d top down space game powered by a rigid body physics engine
+
+Plot
+not really any to speak of, maybe a few little tidbits hinting at a something mysterious going on but no actual substance
+
+Gameplay Description
+you fly to a space station, buy upgrades and better ships and all that stuff, then you pick one of several randomly generated missions (go here, kill this dude, that sort of thing), and fly off to complete it. the combat won't have a huge amount of depth to it, i envision it mostly involving flying around in circles trying to shoot the enemy while dodging his shots and maybe hiding behind and asteroid or something when your shields go down.
+
+Mechanics
+the player ship will have a certain number of hardpoints to put guns and stuff on. weapons can only go on certain harpoints, but other stuff like shields and armour can be mounted on any hardpoint.
+
+weapon mounts each have a location on the ship and a directional facing, so they might face forward or at an angle or something (most will just face straight forward). there will also be turret mounts that have
+
+there will be 3 classes of ship, each class being bigger than the last. the screen will zoom in or out depending on what class of ship the player is flying, meaning that the players ship will occupy approximately the same portion of the screen regardless of how big it is relative to the world.
+
+Artistic Style
+the assets need to look good both up close and when zoomed out, so they should be fairly simplistic, this will also improve performance since they will all be rendered using vector graphics. the space ships will be arranged into 3 factions, each with a different art direction (doesn't have to be drastically different, just enough to tell them apart), and the external shape of each ship will have to be made of simple geometric shapes so that it can be easily simulated in the physics engine
+
+Asset Breakdown
+main areas: ship designs (hoping for at least 9), space station designs (hoping for 5), main menu, menu when player is inside space station, maybe settings menu?, HUD interface, various special effects (explosions, weapon trails etc)
+writing: want to keep written text to a minimum to make the game accessible to foreign audiences without the need for translation, preferably any text should also be accompanied by some form of visual aid
+
+Game Flow
+start game -> player starts in sparse asteroid field -> simple graphics explain controls, player flies around aimlessly for a little bit to get feel of controls -> something happens that forces player to act, probably gets attacked by an enemy ship -> ship dies, player is directed to a space station to get a mission -> loop( complete mission, get money -> buy stuff -> get new mission )
+
+Additional Ideas
+would be nice if there was a small exploration element as well, i.e. randomly generated enemies and loot, and other cool stuff dotted around so its fun just flying around randomly
+
+would like the world to seem like a real place, with randomly generated civilian ships that fly between space stations and stuff like that
+
+i was also thinking about having computer controlled allies that assist the player on certain missions, allowing for large chaotic battles with lots of ships on each side
